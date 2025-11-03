@@ -29,7 +29,7 @@
 
                 if (attempts >= maxAttempts)
                 {
-                    Console.WriteLine($"К сожалению, попытки закончились! Загаданное число: {secretNumber}");
+                    Console.WriteLine($"К сожалению , попытки закончились! Загаданное число было: {secretNumber}");
                     break;
                 }
 
