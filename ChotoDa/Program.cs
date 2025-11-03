@@ -5,6 +5,7 @@
         static void Main(string[] args)
         {
             // Базовый алгоритм: Угадай число
+            int maxAttempts = 10;
             Random random = new Random();
             int secretNumber = random.Next(1, 101); // Загадываем число от 1 до 100
             int attempts = 0;
